@@ -6,13 +6,13 @@ body{
 header{
     width: 80%;
     height: 95vh;
-    border: 1px solid black ;
+    /* border: 1px solid black ; */
     margin: auto ;
 }
 header nav{
     width: 95%;
     height: 7%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: auto;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ header .content {
     position: relative;
     width: 100%;
     height: 93%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 header .content::before{
     content: '';
@@ -156,10 +156,119 @@ header .trip_bx .traval_bx{
     height: auto;
     width: 100%;
     margin: auto;
-    top: 40px;
-    background: #000;
-    border: 1px solid #000;
+    top: 30px;
+    /* 'b' */
+    /* border: 1px solid #000; */
     border-radius: 10px;
     padding-bottom: 20px;
-    box-shadow: 0px 20px 215px -10px rgb(165, 165, 165);
+    box-shadow: 0px 20px 25px -10px rgb(165, 165, 165);
+}
+
+header .trip_bx .traval_bx::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241, .7);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+   
+}
+
+header .trip_bx .traval_bx h4{
+    margin: 0;
+    padding: 60px 0px 15px 1.7%;   
+}
+header .trip_bx .traval_bx .cards{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .trip_bx .traval_bx .cards .card{
+    width: 220px;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+header .trip_bx .traval_bx .cards .card h3{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+header .trip_bx .traval_bx .cards .card h3 img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+header .trip_bx .traval_bx .cards .card img{
+    height: 50%;
+    width: 100%;
+}
+header .trip_bx .traval_bx .cards .card .btn_city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+header .trip_bx .traval_bx .cards .card .btn_city a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 11px;
+    transition: .3s linear;
+}
+header .trip_bx .traval_bx .cards .card .btn_city a:hover{
+    background: gray;
+
+}
+header .trip_bx .traval_bx .cards .card .btn_city h5{
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 5px;
+    line-height: 15px;
+}
+header .trip_bx .traval_bx .cards .card .btn_city h5 span{
+    font-size: 13px;
+    font-weight: 700;
+}
+/* header completed */
+
+.offers{
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+}
+.offers h1{
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.offers p{
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+.offers .cards{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.offers .cards .card{
+    position: relative;
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
 }
