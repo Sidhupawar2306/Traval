@@ -180,3 +180,39 @@
         width: 119%;
     }
 }
+@media screen and (max-width: 300px){
+    header {
+        width: 130%;
+    }
+    header .content .cont_bx {
+        width: 247px;
+    }
+    header .trip_bx .search_bx {
+        width: 89%;
+    }
+    header .trip_bx .search_bx .card {
+        width: 60px;
+    }
+    header .trip_bx .search_bx .card h4 {
+        font-size: 10px;
+    }
+    header .trip_bx .search_bx .card input {
+        font-size: 8px;
+    }
+    .offers {
+        width: 55%;
+        margin-top: 140px;
+    }
+    .destination {
+        width: 127%;
+    }
+    .destination .des_bx h6 {
+        width: 179px;
+        font-size: 10px;
+        
+    }
+    footer {
+        width: 135%;
+       
+    }
+}
